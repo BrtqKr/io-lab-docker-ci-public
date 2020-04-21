@@ -31,7 +31,7 @@ image:
 		--build-arg SCHEMA_BUILD_VERSION="$(SCHEMA_BUILD_VERSION)" \
 		--build-arg SCHEMA_CMD="$(SCHEMA_CMD)" \
 		-t "$(SCHEMA_NAME)":latest \
-		-t "$(SCHEMA_NAME)":v1.0 \
+		-t "$(SCHEMA_NAME)":"${TAG}" \
 		.
   # TODO: last part of this command that tags just built image with a specyfic tag
 push: image
