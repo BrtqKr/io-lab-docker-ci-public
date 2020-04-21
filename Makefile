@@ -11,7 +11,7 @@ SCHEMA_DESCRIPTION = My image!
 SCHEMA_URL = http://example.com
 # Vendor set to github user name
 SCEHMA_VENDOR = BrtqKr
-SCHEMA_VSC_URL = https://github.com/BrtqKr/io_docker_labs
+SCHEMA_VSC_URL = https://github.com/BrtqKr/io-lab-docker-ci-public
 # git commit shirt sha
 SCHEMA_VCS_REF = $(shell git rev-parse --short HEAD)
 SCHEMA_BUILD_DATE = $(shell date -u +'%Y-%m-%dT%H:%M:%SZ')
